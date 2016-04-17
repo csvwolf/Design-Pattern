@@ -1,0 +1,14 @@
+package me.codesky;
+
+/**
+ * Created by SkyAo on 16/4/17.
+ */
+public class Espresso extends Beverage {
+    public Espresso() {
+        description = "Espresso";
+    }
+
+    public double cost() {
+        return 1.99;
+    }
+}
